@@ -4,7 +4,7 @@ MTCNN - Face Detection<br>
 OpenCV - Face Recognition & Mosaic<br>
 Edge Device - Rasberry Pi4 사용<br>
 
-git clone MTCNN model: https://github.com/ipazc/mtcnn
+<b>git clone MTCNN model: https://github.com/ipazc/mtcnn
 
 <br>
 <h2>추가적으로 성능 향상을 해야할 것들,</h2><br>
