@@ -1,16 +1,13 @@
-<h1>Project: MTCNN Face detection model 과 Edge Device를 활용한 Realtime 인물 인식 및 자동 모자이크 시스템</h1>
+## Project: MTCNN Face detection model 과 Edge Device를 활용한 Realtime 인물 인식 및 자동 모자이크 시스템
 
-MTCNN - Face Detection<br>
-OpenCV - Face Recognition & Mosaic<br>
-Edge Device - Rasberry Pi4 사용<br>
+* MTCNN - Face Detection
+* OpenCV - Face Recognition & Mosaic
+* Edge Device - Rasberry Pi4 사용
 
-<b>git clone MTCNN model: https://github.com/ipazc/mtcnn
+### git clone MTCNN model: https://github.com/ipazc/mtcnn
 
-<br>
-<h2>추가적으로 성능 향상을 해야할 것들,</h2><br>
-1) SSD 모델(Dataset- WIDER FACE): MTCNN 모델 보다 속도나 정확도 면에서 더 높은 성능 가짐<br>
-2) FaceNet: 딥 러닝 모델을 사용하여 얼굴 인식 시 인식 정확도 향상 가능<br>
-3) 모델 경량화(ex. Pruning Algorithm): 경량화 알고리즘을 통해 딥러닝 모델을 경량화 시킨다면 Edge Device 이식시 최적화 가능<br>
-4) Jetson Nano: Edge Device로 GPU 탑재된 Jetson Nano 사용 시 성능 향상 가능<br>
+## How to improve the face detection model
 
-
+* ssd model 또는 yolov3 이상의 모델을 사용 - 모델이 비교적 가볍고 정확도 와 속도 측면에서 높은 성능을 보인다. 
+* Facenet 사용 - 프로젝트 진행 시에 gpu 환경에서 구현을 한 것이 아니기 때문에 Facenet을 사용하지 못하였지만, Facenet을 사용하면 Face Recognition을 할때 정확도를 향상시킬 수 있다. 
+* Edge Device : Jetson nano 사용 - gpu 환경에서 모델을 돌릴 수 있기 때문에 속도를 향상 시킬 수 있다.  
