@@ -6,6 +6,10 @@
 
 ### git clone MTCNN model: https://github.com/ipazc/mtcnn
 
+### Tools:
+* Tensorflow 2.4
+* OpenCV 
+
 ## How to improve the face detection model
 
 * ssd model 또는 yolov3 이상의 모델을 사용 - 모델이 비교적 가볍고 정확도 와 속도 측면에서 높은 성능을 보인다. 
